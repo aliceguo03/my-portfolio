@@ -1,53 +1,19 @@
 1:"$Sreact.fragment"
 2:I[39756,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
 3:I[37457,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-9:I[68027,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
-:HL["/my-portfolio/_next/static/chunks/0~lnp8-z_.x5b.css","style"]
-:HL["/my-portfolio/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/my-portfolio/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-4:T502,
-          const canvas = document.getElementById('starfield');
-          const ctx = canvas.getContext('2d');
-          canvas.width = canvas.offsetWidth;
-          canvas.height = canvas.offsetHeight;
-          const stars = Array.from({ length: 150 }, () => ({
-            x: Math.random() * canvas.width,
-            y: Math.random() * canvas.height,
-            r: Math.random() * 1.5 + 0.5,
-            dx: (Math.random() - 0.5) * 0.3,
-            dy: (Math.random() - 0.5) * 0.3,
-            opacity: Math.random()
-          }));
-          function draw() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            stars.forEach(s => {
-              ctx.beginPath();
-              ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-              ctx.fillStyle = `rgba(255,255,255,${s.opacity})`;
-              ctx.fill();
-              s.x += s.dx; s.y += s.dy;
-              s.opacity += (Math.random() - 0.5) * 0.05;
-              s.opacity = Math.max(0.1, Math.min(1, s.opacity));
-              if (s.x < 0) s.x = canvas.width;
-              if (s.x > canvas.width) s.x = 0;
-              if (s.y < 0) s.y = canvas.height;
-              if (s.y > canvas.height) s.y = 0;
-            });
-            requestAnimationFrame(draw);
-          }
-          draw();
-        0:{"P":null,"c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/my-portfolio/_next/static/chunks/0~lnp8-z_.x5b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-white text-gray-800","children":[["$","div",null,{"className":"relative w-full h-64 bg-black overflow-hidden flex items-center justify-center","children":[["$","canvas",null,{"id":"starfield","className":"absolute inset-0 w-full h-full"}],["$","div",null,{"className":"relative z-10 text-center","children":[["$","h1",null,{"className":"text-4xl font-bold text-white mb-2","children":"Hi, I'm Alice 👋"}],["$","p",null,{"className":"text-gray-300 text-lg","children":"COGS student at UC San Diego"}]]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$4"}}]]}],"$L5"]}],["$L6"],"$L7"]}],{},null,false,null]},null,false,null],"$L8",false]],"m":"$undefined","G":["$9",["$La"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"5BVm4U4WuL3BGsmVagPE9"}
-b:I[22016,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js","/my-portfolio/_next/static/chunks/0ka051yepewro.js"],""]
-c:I[97367,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-d:"$Sreact.suspense"
-f:I[97367,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
-11:I[97367,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
-5:["$","div",null,{"className":"px-8 py-16 max-w-2xl mx-auto","children":[["$","p",null,{"className":"text-gray-700 leading-relaxed mb-10","children":"Welcome to my portfolio! I'm interested in design, technology, and how people interact with the world around them."}],["$","$Lb",null,{"href":"/about","className":"bg-black text-white px-6 py-3 rounded-full text-sm hover:bg-gray-800 transition","children":"Learn more about me →"}]]}]
-6:["$","script","script-0",{"src":"/my-portfolio/_next/static/chunks/0ka051yepewro.js","async":true,"nonce":"$undefined"}]
-7:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
-8:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$d",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-a:["$","link","0",{"rel":"stylesheet","href":"/my-portfolio/_next/static/chunks/0~lnp8-z_.x5b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
-10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-13:I[27201,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
-e:null
-12:[["$","title","0",{"children":"Create Next App"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/my-portfolio/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L13","3",{}]]
+4:I[47257,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"ClientPageRoot"]
+5:I[31713,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js","/my-portfolio/_next/static/chunks/0mka_5e2k9uen.js"],"default"]
+8:I[97367,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+b:I[97367,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+d:I[97367,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+f:I[68027,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/my-portfolio/_next/static/chunks/12yfvl2roq~hc.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap","style"]
+0:{"P":null,"c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/my-portfolio/_next/static/chunks/12yfvl2roq~hc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"style":{"margin":0,"background":"#faf9f7","fontFamily":"'DM Sans', sans-serif"},"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[["$","$L4",null,{"Component":"$5","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@6","$@7"]}}],[["$","script","script-0",{"src":"/my-portfolio/_next/static/chunks/0mka_5e2k9uen.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$9",null,{"name":"Next.Metadata","children":"$Le"}]}]}],null]}],false]],"m":"$undefined","G":["$f",[["$","link","0",{"rel":"stylesheet","href":"/my-portfolio/_next/static/chunks/12yfvl2roq~hc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"jdiMexa7CuRhmfx5e27fB"}
+6:{}
+7:"$0:f:0:1:1:children:0:props:children:0:props:serverProvidedParams:params"
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:I[27201,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+a:null
+e:[["$","title","0",{"children":"Alice Guo"}],["$","meta","1",{"name":"description","content":"Portfolio"}],["$","link","2",{"rel":"icon","href":"/my-portfolio/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L10","3",{}]]

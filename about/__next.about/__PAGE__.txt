@@ -1,38 +1,9 @@
 1:"$Sreact.fragment"
-3:I[22016,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js","/my-portfolio/_next/static/chunks/0ka051yepewro.js"],""]
-5:I[97367,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-6:"$Sreact.suspense"
-2:T503,
-          const canvas = document.getElementById('starfield2');
-          const ctx = canvas.getContext('2d');
-          canvas.width = canvas.offsetWidth;
-          canvas.height = canvas.offsetHeight;
-          const stars = Array.from({ length: 150 }, () => ({
-            x: Math.random() * canvas.width,
-            y: Math.random() * canvas.height,
-            r: Math.random() * 1.5 + 0.5,
-            dx: (Math.random() - 0.5) * 0.3,
-            dy: (Math.random() - 0.5) * 0.3,
-            opacity: Math.random()
-          }));
-          function draw() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            stars.forEach(s => {
-              ctx.beginPath();
-              ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-              ctx.fillStyle = `rgba(255,255,255,${s.opacity})`;
-              ctx.fill();
-              s.x += s.dx; s.y += s.dy;
-              s.opacity += (Math.random() - 0.5) * 0.05;
-              s.opacity = Math.max(0.1, Math.min(1, s.opacity));
-              if (s.x < 0) s.x = canvas.width;
-              if (s.x > canvas.width) s.x = 0;
-              if (s.y < 0) s.y = canvas.height;
-              if (s.y > canvas.height) s.y = 0;
-            });
-            requestAnimationFrame(draw);
-          }
-          draw();
-        0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-white text-gray-800","children":[["$","div",null,{"className":"relative w-full h-64 bg-black overflow-hidden flex items-center justify-center","children":[["$","canvas",null,{"id":"starfield2","className":"absolute inset-0 w-full h-full"}],["$","div",null,{"className":"relative z-10 text-center","children":[["$","h1",null,{"className":"text-4xl font-bold text-white mb-2","children":"About Me"}],["$","p",null,{"className":"text-gray-300 text-lg","children":"Get to know me a little better"}]]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","div",null,{"className":"px-8 py-16 max-w-2xl mx-auto","children":[["$","$L3",null,{"href":"/","className":"text-sm text-gray-400 hover:text-black mb-10 block","children":"← Back to home"}],["$","section",null,{"className":"mb-10","children":[["$","h2",null,{"className":"text-xl font-semibold mb-3","children":"Bio"}],["$","p",null,{"className":"text-gray-700 leading-relaxed","children":"I'm Alice, a student at UC San Diego studying Cognitive Science with a specialization in design & interaction. I'm also pursuing minors in both data science and music. In my free time, I enjoy traveling, concert-going, and exploring new food spots in San Diego."}]]}],["$","section",null,{"className":"mb-10","children":[["$","h2",null,{"className":"text-xl font-semibold mb-3","children":"Skills"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","React",{"className":"bg-gray-100 text-gray-700 px-4 py-1 rounded-full text-sm","children":"React"}],["$","span","Next.js",{"className":"bg-gray-100 text-gray-700 px-4 py-1 rounded-full text-sm","children":"Next.js"}],["$","span","TypeScript",{"className":"bg-gray-100 text-gray-700 px-4 py-1 rounded-full text-sm","children":"TypeScript"}],["$","span","Figma",{"className":"bg-gray-100 text-gray-700 px-4 py-1 rounded-full text-sm","children":"Figma"}],["$","span","Python",{"className":"bg-gray-100 text-gray-700 px-4 py-1 rounded-full text-sm","children":"Python"}]]}]]}],["$","section",null,{"children":[["$","h2",null,{"className":"text-xl font-semibold mb-3","children":"Contact"}],["$","p",null,{"className":"text-gray-700","children":["Email:"," ",["$","a",null,{"href":"mailto:guoalice03@email.com","className":"underline hover:text-black","children":"guoalice03@email.com"}]]}]]}]]}]]}],[["$","script","script-0",{"src":"/my-portfolio/_next/static/chunks/0ka051yepewro.js","async":true}]],"$L4"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"5BVm4U4WuL3BGsmVagPE9"}
-4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
-7:null
+2:I[47257,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"ClientPageRoot"]
+3:I[60078,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js","/my-portfolio/_next/static/chunks/0w7ucdwxxd5-a.js"],"default"]
+6:I[97367,["/my-portfolio/_next/static/chunks/01xlw8hd842-c.js","/my-portfolio/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/my-portfolio/_next/static/chunks/0w7ucdwxxd5-a.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jdiMexa7CuRhmfx5e27fB"}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
